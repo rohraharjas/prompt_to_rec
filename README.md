@@ -71,7 +71,7 @@ TMDB_API_KEY=your_tmdb_api_key
 
 Run the `data_collection.ipynb` file with your TMDB API to generate `df.csv`
 
-Follow the `VectorSearch.ipynb` file to generate embeddings and migrate your data to QDrant
+Follow the `VectorSearch.ipynb` file to generate embeddings and migrate your data to QDrant.
 
 Open the application on Streamlit:
 
