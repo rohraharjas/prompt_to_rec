@@ -90,7 +90,4 @@ Open the application on Streamlit:
 ---
 
 ## Demo
-<video width="600" autoplay loop muted>
-  <source src="demo.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+![Demo](https://raw.githubusercontent.com/rohraharjas/prompt_to_rec/main/public/demo.webm)
