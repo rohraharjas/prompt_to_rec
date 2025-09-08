@@ -42,7 +42,7 @@ CineMatch is an intelligent movie recommendation app that helps you find films b
 
 ## 🛠️ Tech Stack
 
-- Backend: Python (Streamlit)
+- Frontend: Python (Streamlit)
 
 - Database: Qdrant
 
