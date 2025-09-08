@@ -91,3 +91,10 @@ Open the application on Streamlit:
 
 ## Demo
 [demo.webm](https://github.com/user-attachments/assets/a6ac9e12-1aef-47a3-a6a0-5b779690ea7d)
+
+### Built With
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-000000?style=for-the-badge&logo=qdrant&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-1DB954?style=for-the-badge&logo=gemini&logoColor=white)
+![TMDB](https://img.shields.io/badge/TMDB-01B2FF?style=for-the-badge&logo=themoviedatabase&logoColor=white)
+
