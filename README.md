@@ -2,6 +2,8 @@
 
 AI-powered movie recommendation engine with semantic search and natural language understanding.
 
+---
+
 ## 📌 Overview
 
 CineMatch is an intelligent movie recommendation app that helps you find films based on natural language queries like:
@@ -12,6 +14,8 @@ CineMatch is an intelligent movie recommendation app that helps you find films b
 
 “Action thrillers released after 2020 with great ratings”
 
+---
+
 ### It uses:
 
 - Qdrant Vector Database → stores movie metadata as embeddings for fast semantic search.
@@ -19,6 +23,8 @@ CineMatch is an intelligent movie recommendation app that helps you find films b
 - Gemini API → for query interpretation & intent extraction (instead of just “prompt understanding”).
 
 - TMDB API → fetches rich metadata like genres, cast, crew, ratings, and posters.
+
+---
 
 ## 🚀 Features
 
@@ -32,6 +38,8 @@ CineMatch is an intelligent movie recommendation app that helps you find films b
 
 - Easily extensible to support personalization
 
+---
+
 ## 🛠️ Tech Stack
 
 - Backend: Python (Streamlit)
@@ -41,6 +49,8 @@ CineMatch is an intelligent movie recommendation app that helps you find films b
 - LLM: Gemini (for intent + keyphrase extraction)
 
 - External API: TMDB (movie data source)
+
+---
 
 ## ⚡ Installation
 
@@ -76,3 +86,11 @@ Follow the `VectorSearch.ipynb` file to generate embeddings and migrate your dat
 Open the application on Streamlit:
 
 `streamlit run app.py`
+
+---
+
+## Demo
+<video width="600" autoplay loop muted>
+  <source src="demo.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>

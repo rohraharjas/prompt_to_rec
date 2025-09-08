@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#FF00B6"            # matches your pink glow
+backgroundColor = "#020617"         # Tailwind bg-slate-950
+secondaryBackgroundColor = "#0F172A"  # a bit lighter slate for containers
+textColor = "#FFFFFF"
+font = "sans serif"

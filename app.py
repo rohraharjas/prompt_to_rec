@@ -5,6 +5,35 @@ from utils.poster import get_movie_poster
 
 st.set_page_config(page_title="Movie Recommender", layout="wide")
 
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background: #020617; /* base slate */
+    }
+    .stApp::before, .stApp::after {
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        width: 500px;
+        height: 500px;
+        background: radial-gradient(circle farthest-side, rgba(255,0,182,.15), rgba(255,255,255,0));
+        z-index: 0;
+    }
+    .stApp::before {
+        top: -10%;
+        left: -20%;
+    }
+    .stApp::after {
+        top: -10%;
+        right: -20%;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
 # Initialize
 extractor = FeatureExtractor()
 searcher = QdrantSearch()
