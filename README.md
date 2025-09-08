@@ -90,4 +90,4 @@ Open the application on Streamlit:
 ---
 
 ## Demo
-![Demo](https://raw.githubusercontent.com/rohraharjas/prompt_to_rec/main/public/demo.webm)
+[![Demo](https://raw.githubusercontent.com/rohraharjas/prompt_to_rec/main/public/thumbnail.png)](https://raw.githubusercontent.com/rohraharjas/prompt_to_rec/main/public/demo.webm)
