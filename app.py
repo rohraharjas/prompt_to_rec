@@ -1,7 +1,7 @@
 import streamlit as st
-from feature_extraction import FeatureExtractor
-from qdrant import QdrantSearch
-from poster import get_movie_poster
+from utils.feature_extraction import FeatureExtractor
+from utils.qdrant import QdrantSearch
+from utils.poster import get_movie_poster
 
 st.set_page_config(page_title="Movie Recommender", layout="wide")
 
