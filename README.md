@@ -47,8 +47,8 @@ CineMatch is an intelligent movie recommendation app that helps you find films b
 Clone the repo:
 
 ```bash
-git clone https://github.com/your-username/cinematch.git
-cd cinematch
+git clone https://github.com/rohraharjas/prompt_to_rec.git
+cd prompt_to_rec
 ```
 
 Create a virtual environment and install dependencies:
@@ -69,3 +69,10 @@ GEMINI_API_KEY=your_gemini_api_key
 TMDB_API_KEY=your_tmdb_api_key
 ```
 
+Run the `data_collection.ipynb` file with your TMDB API to generate `df.csv`
+
+Follow the `VectorSearch.ipynb` file to generate embeddings and migrate your data to QDrant
+
+Open the application on Streamlit:
+
+`streamlit run app.py`
